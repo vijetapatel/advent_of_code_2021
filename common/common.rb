@@ -40,4 +40,8 @@ module Common
     file.close
     data
   end
+
+  def log_with_name(var_name, var_value)
+    log "#{var_name}: #{var_value}"
+  end
 end
